@@ -25,7 +25,8 @@ static private boolean go_on = true;
 		System.out.println("   Records in eine Datei sichern > 3");
 		System.out.println("   Records aus einer Datei laden > 4");
 		System.out.println("                  Datei loeschen > 5");
-		System.out.println("          das Programm verlassen > 6");
+		System.out.println("               Datei duplizieren > 6");
+		System.out.println("          das Programm verlassen > 7");
 		answer = StdInput.readInt();
 		System.out.println("Die Antwort war: "+answer);
 		if (answer == 6) {
